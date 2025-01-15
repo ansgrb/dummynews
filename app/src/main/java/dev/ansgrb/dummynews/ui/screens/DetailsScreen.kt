@@ -1,4 +1,4 @@
-package dev.ansgrb.dummynews.ui.screen
+package dev.ansgrb.dummynews.ui.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth

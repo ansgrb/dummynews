@@ -5,8 +5,8 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import dev.ansgrb.dummynews.ui.screen.DetailsScreen
-import dev.ansgrb.dummynews.ui.screen.TopNewsScreen
+import dev.ansgrb.dummynews.ui.screens.DetailsScreen
+import dev.ansgrb.dummynews.ui.screens.TopNewsScreen
 
 @Composable
 fun NewsApp(paddingValues: PaddingValues) {
