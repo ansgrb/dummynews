@@ -1,6 +1,7 @@
 package dev.ansgrb.dummynews.components
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -21,11 +22,14 @@ import dev.ansgrb.dummynews.model.NewsData
 
 
 @Composable
-fun TopNewsItem(newsData: NewsData){
+fun TopNewsItem(newsData: NewsData, onNewsClicked: ()-> Unit = {}){
     Box(
         modifier = Modifier
             .height(200.dp)
             .padding(8.dp)
+            .clickable {
+                onNewsClicked()
+            }
     ){
         Image(
             painter = painterResource(id = newsData.image),

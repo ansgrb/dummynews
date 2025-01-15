@@ -14,24 +14,24 @@ object MockData {
         NewsData(
             id = 2,
             image = R.drawable.ass_01,
-            author = "Jane Doe",
-            title = "Title 2",
+            author = "Helen Regan",
+            title = "Dramatic showdown looms in South Korea as Yoon faces impeachment trial and possible arrest",
             description = "Description 2",
             publishedAt = "2021-09-02"
         ),
         NewsData(
             id = 3,
             image = R.drawable.ass_02,
-            author = "John Doe",
-            title = "Title 3",
+            author = "Sam Smith",
+            title = "How the climate crisis fuels gender inequality",
             description = "Description 3",
             publishedAt = "2021-09-03"
         ),
         NewsData(
             id = 4,
             image = R.drawable.ass_03,
-            author = "Jane Doe",
-            title = "Title 4",
+            author = "Andrei Doe",
+            title = "Android Jetpack Compose tutorial for beginners",
             description = "Description 4",
             publishedAt = "2021-09-04"
         ),
@@ -80,4 +80,7 @@ object MockData {
             publishedAt = "2021-09-10"
         ),
     )
+    fun getNewsById(id: Int?): NewsData{
+        return topNewsList.first { it.id == id }
+    }
 }

@@ -32,7 +32,9 @@ fun TopNewsScreen(navController: NavController){
         LazyColumn(){
             items(MockData.topNewsList){
                 newsData ->
-                TopNewsItem(newsData = newsData)
+                TopNewsItem(newsData = newsData, onNewsClicked = {
+                    navController.navigate("DetailsScreen/${newsData.id}")
+                })
             }
         }
     }

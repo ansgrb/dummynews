@@ -13,9 +13,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
+import dev.ansgrb.dummynews.model.NewsData
 
 @Composable
-fun DetailsScreen(navController: NavController){
+fun DetailsScreen(navController: NavController, newsData: NewsData){
     Column(
         modifier = Modifier.fillMaxWidth(),
         horizontalAlignment = Alignment.CenterHorizontally
@@ -32,7 +33,7 @@ fun DetailsScreen(navController: NavController){
                 navController.popBackStack()
             }
         ) {
-            Text("Go to Top News Screen")
+            Text("Go to Top News Screen + ${newsData.author}")
         }
     }
 }
@@ -40,5 +41,11 @@ fun DetailsScreen(navController: NavController){
 @Preview(showBackground = true)
 @Composable
 fun DetailsScreenPreview(){
-    DetailsScreen(rememberNavController())
+    DetailsScreen(rememberNavController(), NewsData(
+        id = 1,
+        author = "John Doe",
+        title = "Title 1",
+        description = "Description 1",
+        publishedAt = "2021-09-01"
+    ))
 }
