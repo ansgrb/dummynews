@@ -16,7 +16,14 @@ object MockData {
             image = R.drawable.ass_01,
             author = "Helen Regan",
             title = "Dramatic showdown looms in South Korea as Yoon faces impeachment trial and possible arrest",
-            description = "Description 2",
+            description = "How the climate crisis fuels gender inequality How the climate crisis fuels gender inequality" +
+                    "How the climate crisis fuels gender inequality How the climate crisis fuels gender inequality" +
+                    "How the climate crisis fuels gender inequality How the climate crisis fuels gender inequality" +
+                    "How the climate crisis fuels gender inequality How the climate crisis fuels gender inequality" +
+                    "How the climate crisis fuels gender inequality" +
+                    "How the climate crisis fuels gender inequality" +
+                    "How the climate crisis fuels gender inequality" +
+                    "How the climate crisis fuels gender inequality",
             publishedAt = "2021-09-02"
         ),
         NewsData(
@@ -80,7 +87,10 @@ object MockData {
             publishedAt = "2021-09-10"
         ),
     )
-    fun getNewsById(id: Int?): NewsData{
-        return topNewsList.first { it.id == id }
+    fun getNewsById(id: Int?): NewsData?{
+        if (id == null) {
+            return null
+        }
+        return topNewsList.firstOrNull { it.id == id }
     }
 }

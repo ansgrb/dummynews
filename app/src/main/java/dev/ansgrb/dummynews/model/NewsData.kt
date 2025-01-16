@@ -9,7 +9,4 @@ data class NewsData(
     val description: String,
     val image: Int = R.drawable.brnews,
     val publishedAt: String
-) {
-
-
-}
+)

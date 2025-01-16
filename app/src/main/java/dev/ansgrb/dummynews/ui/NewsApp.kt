@@ -1,6 +1,7 @@
 package dev.ansgrb.dummynews.ui
 
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
@@ -19,6 +20,7 @@ fun NewsApp(paddingValues: PaddingValues) {
 @Composable
 fun Navigation() {
     val navController = rememberNavController()
+    val scrollState = rememberScrollState()
     NavHost(navController = navController, startDestination = "TopNewsScreen") {
         composable("TopNewsScreen") {
             TopNewsScreen(navController = navController)
@@ -29,7 +31,9 @@ fun Navigation() {
             navBackStackEntry ->
             val newsId = navBackStackEntry.arguments?.getInt("newsId")
             val newsData = MockData.getNewsById(newsId)
-            DetailsScreen(navController = navController, newsData = newsData)
+            if (newsData != null) {
+                DetailsScreen(navController = navController, newsData = newsData, scrollState)
+            }
         }
 
     }
