@@ -1,5 +1,6 @@
 package dev.ansgrb.dummynews
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -18,6 +19,7 @@ import androidx.core.view.WindowInsetsControllerCompat
 import dev.ansgrb.dummynews.ui.NewsApp
 import dev.ansgrb.dummynews.ui.theme.DummynewsTheme
 
+//@SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

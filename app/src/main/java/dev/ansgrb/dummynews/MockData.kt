@@ -5,87 +5,107 @@ import dev.ansgrb.dummynews.model.NewsData
 object MockData {
     val topNewsList = listOf<NewsData>(
         NewsData(
-            id = 1,
-            author = "John Doe",
-            title = "Title 1",
-            description = "Description 1",
-            publishedAt = "2021-09-01"
-        ),
-        NewsData(
-            id = 2,
+            1,
+            author = "Raja Razek, CNN",
             image = R.drawable.ass_01,
-            author = "Helen Regan",
-            title = "Dramatic showdown looms in South Korea as Yoon faces impeachment trial and possible arrest",
-            description = "How the climate crisis fuels gender inequality How the climate crisis fuels gender inequality" +
-                    "How the climate crisis fuels gender inequality How the climate crisis fuels gender inequality" +
-                    "How the climate crisis fuels gender inequality How the climate crisis fuels gender inequality" +
-                    "How the climate crisis fuels gender inequality How the climate crisis fuels gender inequality" +
-                    "How the climate crisis fuels gender inequality" +
-                    "How the climate crisis fuels gender inequality" +
-                    "How the climate crisis fuels gender inequality" +
-                    "How the climate crisis fuels gender inequality",
-            publishedAt = "2021-09-02"
+            title = "'Tiger King' Joe Exotic says he has been diagnosed with aggressive form of prostate cancer - CNN",
+            description = "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado." +
+                    "Joseph Maldonado, known as Joe Exotic on the 2020 Netflix docuseries \\\"Tiger King: Murder, Mayhem and Madness,\\\" has been diagnosed with an aggressive form of prostate cancer, according to a letter written by Maldonado.",
+            publishedAt = "2021-11-04T05:35:21Z"
         ),
         NewsData(
-            id = 3,
+            2,
+            author = "Namita Singh",
             image = R.drawable.ass_02,
-            author = "Sam Smith",
-            title = "How the climate crisis fuels gender inequality",
-            description = "Description 3",
-            publishedAt = "2021-09-03"
+            title = "Cleo Smith news — live: Kidnap suspect 'in hospital again' as 'hard police grind' credited for breakthrough - The Independent",
+            description = "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody." +
+                    "The suspected kidnapper of four-year-old Cleo Smith has been treated in hospital for a second time amid reports he was “attacked” while in custody.",
+            publishedAt = "2021-11-04T04:42:40Z"
         ),
         NewsData(
-            id = 4,
+            3,
+            author = "Not available",
             image = R.drawable.ass_03,
-            author = "Andrei Doe",
-            title = "Android Jetpack Compose tutorial for beginners",
-            description = "Description 4",
-            publishedAt = "2021-09-04"
+            title = "'You are not alone': EU Parliament delegation tells Taiwan on first official visit - Reuters",
+            description =
+            "The European Parliament's first official delegation to Taiwan said on Thursday the diplomatically isolated island is not alone and called for bolder actions to strengthen EU-Taiwan ties as Taipei faces rising pressure from Beijing.",
+            publishedAt = "2021-11-04T03:37:00Z"
         ),
         NewsData(
-            id = 5,
+            4,
+            author = "Mike Florio",
             image = R.drawable.ass_04,
-            author = "John Doe",
-            title = "Title 5",
-            description = "Description 5",
-            publishedAt = "2021-09-05"
+            title = "Aaron Rodgers violated COVID protocol by doing maskless indoor press conferences - NBC Sports",
+            description = "Packers quarterback Aaron Rodgers has been conducting in-person press conferences in the Green Bay facility without wearing a mask. Because he was secretly unvaccinated, Rodgers violated the rules.",
+            publishedAt = "2021-11-04T03:21:00Z"
         ),
         NewsData(
-            id = 6,
-            image = R.drawable.ass_05,
-            author = "Jane Doe",
-            title = "Title 6",
-            description = "Description 6",
-            publishedAt = "2021-09-06"
+            5,
+            author = "Grant Brisbee",
+            title = "Buster Posey's career was like no other in Giants history - The Athletic",
+            description = "There was a franchise without Buster Posey, and there was one with him, and those two franchises were radically, impossibly different.",
+            publishedAt = "2021-11-04T02:12:54Z"
         ),
         NewsData(
-            id = 7,
-            author = "John Doe",
-            title = "Title 7",
-            description = "Description 7",
-            publishedAt = "2021-09-07"
+            6,
+            author = "Michael Schneider",
+            title = "‘The Masked Singer’ Reveals Identity of the Beach Ball: Here Are the Stars Under the Mask - Variety",
+            description = "SPOILER ALERT: Do not read ahead if you have not watched “The Masked Singer” Season 6, Episode 8, “Giving Thanks,” which aired November 3 on Fox. Honey Boo Boo, we hardly knew you. Reality TV mother and daughter stars June Edith “Mama June” Shannon and Alana …",
+            publishedAt = "2021-11-04T02:00:00Z"
         ),
         NewsData(
-            id = 8,
-            author = "Jane Doe",
-            title = "Title 8",
-            description = "Description 8",
-            publishedAt = "2021-09-08"
+            7,
+            author = "Thomas Barrabi",
+            title = "Sen. Murkowski slams Dems over 'show votes' on federal election bills - Fox News",
+            description = "Sen. Lisa Murkowski, R-Alaska, slammed Senate Democrats for pursuing “show votes” on federal election bills on Wednesday as Republicans used the filibuster to block consideration the John Lewis Voting Rights Advancement Act.",
+            publishedAt = "2021-11-04T01:57:36Z"
         ),
         NewsData(
-            id = 9,
-            author = "John Doe",
-            title = "Title 9",
-            description = "Description 9",
-            publishedAt = "2021-09-09"
-        ),
-        NewsData(
-            id = 10,
-            author = "Jane Doe",
-            title = "Title 10",
-            description = "Description 10",
-            publishedAt = "2021-09-10"
-        ),
+            8,
+            author = "CBSBoston.com Staff",
+            title = "Principal Beaten Unconscious At Dorchester School; Classes Canceled Thursday - CBS Boston",
+            description = "Principal Patricia Lampron and another employee were assaulted at Henderson Upper Campus during dismissal on Wednesday.",
+            publishedAt = "2021-11-04T01:55:00Z"
+        )
     )
     fun getNewsById(id: Int?): NewsData?{
         if (id == null) {
